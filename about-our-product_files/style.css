@@ -1,0 +1,296 @@
+/*!
+Theme Name: EntreTEK
+Theme URI: https://EntreTEK.com/
+Template: Divi
+Description: EntreTEK Solutions helps entrepreneurs with custom technical solutions to help them make more income and impact. Visit us on EntreTEK.com
+Author: EntreTEK Solutions
+Author URI: http://EntreTEK.com
+Tags: business development, business growth, business consulting
+
+*/
+
+
+
+@import url("../Divi/style.css");
+
+#et-info {
+    float: none;
+}
+.et-social-icons a.icon:before{
+	background:#fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+.et-social-icon a{color:#82b440!important}
+.et-social-icons{float: right!important;}
+.et_fixed_nav #main-header, .et_fixed_nav #top-header {
+    padding:5px 0;
+}
+#top-header .container {
+    font-weight: 400;
+}
+.et_pb_section{background:#f9fcff}
+.baseline{font-size:40px;letter-spacing:-1px;position:relative;margin-bottom:30px;font-weight: 500;text-shadow: 0 0 0 #000;}
+.baseline:after{position:absolute;width:85px;height:3px;background:#82b440;display:block;content:'';margin-top:10px}
+body #page-container #why-choose-us .et_pb_button, body #page-container #our-services .et_pb_button, body #page-container #latest-news .et_pb_button{padding:10px 35px!important}
+#our-services h4{padding:20px 20px 10px;font-weight:600}
+#our-services .et_pb_column_1_3 p{padding:0px 20px 0px}
+#our-services .et_pb_column_1_3 .et_pb_button{margin:0 20px 30px}
+#project-gallery .et_pb_portfolio_item h2{color:#393d48;position:absolute;bottom:0px;background:#f9fcff;width:100%;text-align:center;padding:25px 10px;text-transform:uppercase;font-size:20px;opacity: 0;transition: 0.8s all;}
+#project-gallery .et_pb_portfolio_item p.post-meta{display:none}
+#project-gallery .et_pb_portfolio_item:hover h2{opacity:1;z-index: 99}
+#project-gallery .et_pb_portfolio_item{width:100%;float: none;box-shadow:0 0 50px #ddd}
+#project-gallery .et_pb_portfolio_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.et_pb_portfolio_items .et_overlay:before {
+    padding: 12px;
+    border: 2px #fff solid;
+    top: 40%;
+	margin: -28px 0 0 -28px;
+}
+.baseline.center{text-align:center;margin-bottom: 0;}
+.baseline.center:after{
+    position: static;
+    text-align:center;
+    margin:10px auto 0;
+}
+#project-gallery h2{}
+#project-gallery h2:after{
+    position: static;
+    text-align:center;
+    margin:10px auto 0;
+}
+#project-gallery .et_pb_portfolio_filters ul{text-align:center}
+#project-gallery .et_pb_portfolio_filters ul li a{background:none;border:none;font-size:16px;padding: 13px 25px!important;display: inline;}
+#project-gallery .et_pb_portfolio_filters ul li{display:inline-block;float:none}
+#project-gallery .et_pb_portfolio_filters ul li a.active{border-radius:3px;background:#82b440!important;color:#fff!important}
+#pricing-panel .et_pb_pricing_table_wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+#pricing-panel .et_pb_pricing_table_wrap .et_pb_pricing_table{width:100%;float:none;max-width: 100%;border: none;box-shadow: 0 0 100px #ddd;}
+#pricing-panel .et_pb_pricing_heading{background:#82b440;margin-bottom:0;padding-top:30px;padding-bottom: 30px;}
+#pricing-panel .et_pb_pricing_content_top{background:#82b440;padding-bottom: 50px;}
+#pricing-panel .et_pb_sum{color:#fff;font-weight:800;font-size:52px}
+#pricing-panel .et_pb_frequency:before{content:'Per';/* left: 0; */height: auto;font-size: 20px;text-align: center;background:#82b440;padding-right:8px;margin-right:-10px;z-index:999;position:relative}
+#pricing-panel .et_pb_frequency{/* text-indent:-99999px; */font-size: 20px;display:block;letter-spacing:0px;}
+#our-pricing .et_pb_featured_table .et_pb_dollar_sign {color:#fff;}
+#our-pricing .et_pb_featured_table .et_pb_frequency:before{color:#fff}
+#pricing-panel .et_pb_frequency{color:#fff;margin-bottom: 0px;}
+#pricing-panel .et_pb_dollar_sign {
+    position: relative;
+    margin-left: 0px!important;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top:15px;
+
+}
+#pricing-panel .et_pb_et_price{border: 2px #fff solid;display: inline-block;padding: 5px;}
+#pricing-panel .et_pb_pricing li{padding-left:0;text-align:center;font-size:18px}
+body #page-container #pricing-panel .et_pb_pricing_table_button{padding:12px 35px!important;margin-bottom: 20px;margin-top: 20px;}
+#latest-news .et_pb_column_1_3 h2{padding:0px 20px 10px;font-weight:600;font-size:20px}
+#latest-news .et_pb_column_1_3 p{padding:0px 20px 0px}
+#latest-news .et_pb_column_1_3 .more-link{font-size:18px;margin:10px 20px 30px;padding:8px 25px!important;color:#fff;text-transform:capitalize;background:#82b440;display:inline-block;border-radius:3px;}
+#latest-news .et_pb_column_1_3 .more-link:hover{background:rgba(130,180,64,0.8)}
+#latest-news p .published{padding-left: 25px;position: relative;}
+#latest-news p .published:before{
+    font-family: ETmodules!important;
+    content: "\7d";
+    display: block;
+    font-size: 19px;
+    position: absolute;
+    left: 0;
+    color: #333;
+    margin-top: 0;
+}
+#latest-news article{margin-bottom:10px}
+#testimonial-slider h2:after{
+    position: static;
+    text-align:center;
+    margin:10px auto 0;
+}
+#testimonial-slider .et_pb_slider .et_pb_slide{background:none}
+#testimonial-slider .et_pb_slide .et_pb_slide_description{padding:0 0 100px}
+#testimonial-slider .et_pb_slide h3{text-transform:uppercase;padding-bottom:0;font-size:20px;margin-bottom: -5px;}
+#testimonial-slider .et_pb_slide p.position{font-size:14px;padding-bottom:20px;position:relative;}
+#testimonial-slider .et_pb_slide p.position:after{
+    font-family: ETmodules!important;
+    content: "\e033\e033\e033\e033\e033";
+    position:absolute;
+    margin:22px -94px;
+    font-size:12px;
+    color:#82b440;
+    letter-spacing:3px;
+
+}
+#testimonial-slider .et_pb_slide p{font-size:14px}
+#testimonial-slider .et_pb_slide img{margin-bottom:40px;position:relative;top:18px;border:5px #fff solid;border-radius:10px;box-shadow:0 0 15px #ddd}
+#testimonial-slider .et_pb_container{height:auto!important}
+#testimonial-slider .et-pb-controllers a{width:30px;background:#cddcb9}
+#testimonial-slider .et-pb-controllers .et-pb-active-control{background:#82b440}
+#subscribe .et_pb_newsletter .et_pb_newsletter_fields {
+    display: block;
+    
+}
+#subscribe .et_pb_newsletter_form p.et_pb_newsletter_field{display:inline-block;width: 65%;float:left;padding-bottom: 0;background: none;height: 47px;}
+#subscribe .et_pb_newsletter_button_wrap{display:inline-block;width: 35%;}
+#subscribe .et_pb_newsletter_button_text{font-size: 18px;}
+body #page-container #subscribe .et_pb_newsletter_button{background:#fff;padding: 10px 15px!important;font-weight: 400;color:#82b440;box-shadow: 2px 2px 5px #999;border: 2px #fff solid;border-radius: 0 5px 5px 0;}
+#subscribe .et_pb_newsletter_form {display:block;border-radius: 5px 0 0 5px;}
+#our-team .et_pb_team_member_image:hover img{opacity:0.3}
+#our-team .et_pb_team_member_image img{transition:0.6s all;}
+.et_pb_newsletter_description{display:none}
+#subscribe .et_pb_newsletter_form #et_pb_signup_email{background:none;color: #888;border-left: 2px #fff solid;border-top: 2px #fff solid;border-bottom: 2px #fff solid;}
+#et-footer-nav{float:right;width: 52%;}
+#menu-main-menu{padding:0;background:none;text-align: left;}
+#menu-main-menu li a:hover, #menu-main-menu li.current-menu-item a{color:#82b440!important}
+#menu-main-menu li a{font-weight:400;color: #fff!important;text-transform: uppercase;}
+#menu-main-menu li:last-child{padding-right:0}
+#footer-bottom{padding:20px 0}
+.footer-widget .title{margin-bottom:15px}
+
+.footer-widget p{font-weight:400}
+.widget_nav_menu ul li:before{display:none}
+.widget_nav_menu ul li a{font-weight:400}
+.widget_nav_menu ul li{padding-left:0!important;margin-bottom: 5px;}
+.social-icons{margin-top:20px}
+.social-icons img{margin-right:15px;}
+#main-footer .et-social-icons{display:none;}
+#footer-info{float: left;text-align: left;padding-bottom: 0px;font-weight: 400!important;width: 40%;font-size: 14px!important;}
+#main-footer .fwidget{float:none}
+#main-footer .widget_media_image{margin-bottom: 10px;}
+.bottom-nav{text-align:right;padding: 0;}
+.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul{text-align:center}
+.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li{height: 5px;width: 50px;display: inline-block;padding: 0;line-height: 0;}
+.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a{text-indent:-9999px;background:#ccdbb8;margin: 20px 5px 0;padding: 0;border-radius: 5px;color:#82b440;display:block;line-height: 1;height: 10px;}
+.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active{background:#82b440;}
+#sbar h4.widgettitle{color:#49556b;font-weight:600;font-size:24px}
+#sbar img{margin-top:10px}
+#sbar p{font-weight:400}
+#sbar .widget_search{border-bottom:none!important}
+#sbar .et_pb_widget{border-bottom:1px #ddd solid;padding-bottom:20px;margin-bottom:30px}
+#sbar .et_pb_widget:last-child{border:none;padding-bottom:0;margin-bottom:0}
+#sbar .cat-item{letter-spacing:1px;margin-top:15px;font-size:16px;}
+.widget_recent_entries li a {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+}
+.widget_recent_entries li{margin-top:5px;font-size:14px!important;margin-bottom: 15px!important;}
+#sbar .post-date{font-size:12px}
+#blogroll article{box-shadow:0 0 100px #ddd;background:#fff}
+#blogroll .entry-title{margin:0 30px}
+#blogroll .post-meta{margin:0 30px 10px}
+#blogroll .post-content{margin:0 30px 0px;padding-bottom:20px}
+#blogroll .post-content .more-link{font-size:18px;margin:20px 0px 30px;padding:8px 25px!important;}
+#blogroll .post-content .more-link:hover{border:1px #82b440 solid;background:#fff;color:#82b440}
+.et_contact_bottom_container {
+    float: left;
+    margin-top: 0;
+}
+body #page-container #cform .et_contact_bottom_container .et_pb_contact_submit{padding:12px 35px!important;}
+#contact-info .et_pb_text{width:30%;float:left;margin-right:5%}
+#contact-info .et_pb_text h4{font-size:18px;text-transform:uppercase;color:#82b440}
+#contact-info .et_pb_text:last-child{margin-right:0}
+.comment-form #et_pb_submit{padding:12px 25px!important;background:#82b440;color:#fff;}
+.form-submit {
+    text-align: left;
+}
+
+@media (max-width:1200px){
+	#subscribe .et_pb_column_1_2 {width:100%;text-align:center;float:none;}
+}
+@media (max-width:980px){
+	#our-mission{padding-top:0}
+	#our-services .et_pb_row:last-child{max-width:500px;margin:0 auto;}
+	#pricing-panel .et_pb_column .et_pb_pricing_table {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+	#pricing-panel .et_pb_column .et_pb_pricing_table:nth-child(n+3) {
+    margin-top: 0px;
+}
+	#subscribe .et_pb_column .et_pb_newsletter_form{width:100%}
+	#subscribe .et_pb_column .et_pb_newsletter_description{width:100%}
+	#project-gallery .et_pb_portfolio_item {
+		width: 100%!important;
+	}
+	#subscribe h2{text-align:center;}
+	#et-footer-nav, #footer-info {
+    float: none;
+    width: 100%;
+	text-align:center;
+}
+	
+}
+@media (max-width:769px){
+	#pricing-panel .et_pb_pricing_table_wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+	#project-gallery .et_pb_portfolio_items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+}
+@media (max-width:600px){
+	#pricing-panel .et_pb_pricing_table_wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+	#project-gallery .et_pb_portfolio_items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+	#subscribe .et_pb_newsletter_form p.et_pb_newsletter_field {
+    	display: inline-block;
+		width: 100%;
+	}
+	#subscribe .et_pb_newsletter_button_wrap {
+    display: inline-block;
+    width: 100%;
+}
+	.et_portfolio_image img{width:100%}
+}
+@media (max-width:480px){
+	.et_pb_fullwidth_header .et_pb_fullwidth_header_container .et_pb_button_two {
+    margin-left: 0px;
+}
+	.footer-widget {
+    text-align: center;
+}
+	#menu-main-menu {
+    text-align: center;
+}
+	#testimonial-slider .et_pb_slide img {
+    margin-bottom: 14px;
+    top: 9px;
+}
+	.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+    width: 100%!important;
+}
+	#blogroll .entry-title {
+    margin: 0 30px;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+	.bottom-nav {
+    text-align: center;
+    padding: 0 0 20px;
+}
+	.bottom-nav li {
+    display: block;
+    padding-right: 0;
+    padding-bottom: 5px;
+}
+	.header-content .et_pb_more_button{display:block!important;text-align:center;}
+}
